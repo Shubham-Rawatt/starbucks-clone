@@ -76,7 +76,7 @@ const Footer = () => {
             </div>
 
             <span className="block w-[80%] mx-auto border-t border-white opacity-50 rounded-md mt-5"></span>
-            <div className="flex w-[80%] mx-auto text-[12px] justify-between items-center mb-5">
+            <div className="flex w-[80%] mx-auto text-[12px] justify-between items-center mb-5  ">
                 <ul className="flex gap-4 pt-5">
                     <li>Web Accessibility</li> |
                     <li>Privacy Statement</li> |

@@ -1,4 +1,4 @@
-// FoodPage
+
  import ProductCard from "@/components/productCard/productcard";
 import CategorySlider from "@/components/categorySlider/categoryslider";
 import { products } from "@/data/products";

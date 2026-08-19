@@ -83,7 +83,6 @@ const Footer = () => {
                     <li>Terms of Use</li> |
                     <li>Contact Us</li>
                 </ul>
-
                 <p>© 2026 Starbucks Coffee Company. All rights reserved.</p>
             </div>
         </footer>

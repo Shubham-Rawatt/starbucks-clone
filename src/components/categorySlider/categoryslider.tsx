@@ -49,13 +49,11 @@ const CategorySlider = () => {
         direction="vertical"
         modules={[Scrollbar, Mousewheel]}
         scrollbar={{
-          draggable: true,
-        }}
+        draggable: true,}}
         mousewheel={true}
         slidesPerView={4}
         spaceBetween={12}
-        className="h-100"
-      >
+        className="h-100">
         {categories.map((category) => (
           <SwiperSlide key={category.name}>
             <div className="flex flex-col items-center rounded-lg bg-white p-2">

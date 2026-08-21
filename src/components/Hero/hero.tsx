@@ -59,47 +59,23 @@ const Hero = () => {
       >
         {banners.map((banner) => (
           <SwiperSlide key={banner.title}>
-            <div
-              className="relative h-55 overflow-hidden rounded-xl bg-cover bg-center"
+            <div className="relative h-55 overflow-hidden rounded-xl bg-cover bg-center"
               style={{
-                backgroundImage: `url('${banner.image}')`,
-              }}
-            >
+                backgroundImage: `url('${banner.image}')`,}} >
               {/* Coffee */}
               <div className="absolute bottom-0 left-2">
-                <Image
-                  src={banner.subimg}
-                  alt="Cofee"
-                  width={145}
-                  height={210}
-                  className="h-44 w-auto object-contain"
-                />
+                <Image  src={banner.subimg} alt="Cofee" width={145} height={210} className="h-44 w-auto object-contain" />
               </div>
 
               {/* Content */}
-              <div
-                className={`ml-26 max-w-170 pt-8 ${banner.textColor}`}
-              >
-                <p className="text-sm font-semibold">
-                {banner.txt}
-                </p> 
-
-                <h2 className="mt-3 text-2xl font-bold">
-                  {banner.title}
-                </h2>
-
-                <p className="mt-3 max-w-150 text-sm">
-                  {banner.subtitle}
-                </p>
+              <div className={`ml-26 max-w-170 pt-8 ${banner.textColor}`} >
+                <p className="text-sm font-semibold"> {banner.txt} </p> 
+                <h2 className="mt-3 text-2xl font-bold"> {banner.title} </h2>
+                <p className="mt-3 max-w-150 text-sm"> {banner.subtitle} </p>
               </div>
 
               {/* T&C */}
-              <p
-                className={`absolute right-5 top-3 text-[12px] font-bold ${banner.textColor}`}
-              >
-                *T&C Apply
-              </p>
-
+              <p className={`absolute right-5 top-3 text-[12px] font-bold ${banner.textColor}`}> *T&C Apply </p>
               {/* Button */}
               <button className="absolute bottom-7 right-5 rounded-full bg-[#00754a] px-8 py-3 text-sm font-semibold text-white hover:bg-[#006241]">
                 {banner.button}

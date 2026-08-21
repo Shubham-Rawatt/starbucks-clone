@@ -7,14 +7,14 @@ import CofeeCulture from "@/components/cofeeCulture/cofeeCulture";
 
 export default function Home() {
   return (
-    <div>
+    <main>
       <TopDiv/> 
       <Hero />
       <CategorySection />
       <Recommended />
       <CofeeCulture />
       <Footer />
-    </div>
+    </main>
 
   );
 }

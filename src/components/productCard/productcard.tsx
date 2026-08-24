@@ -1,8 +1,16 @@
 import Image from "next/image";
 import { FiPlus } from "react-icons/fi";
 
+interface Product {
+  id: number;
+  name: string;
+  price: string;
+  image: string;
+  size:string;
+ calories: string;
+}
 
-const ProductCard = ({ product }) => {
+const ProductCard = ({ product }: { product: Product }) => {
   return (
     <div className="w-md flex items-center justify-between bg-white p-5 rounded-xl shadow-lg">
       <div className="flex items-center gap-4">
